@@ -1,2 +1,2 @@
 # gocowin
-golang based API bindings for CoWIN.
+Golang based API bindings for Cowin project. 
