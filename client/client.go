@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-func Client(url, districtId, date, stateId string) (map[string]interface{}, error) {
+func Client(url, districtId, pin, date, stateId string) (map[string]interface{}, error) {
 
     log := log.GetLoggerWithName("Client")
 	client := &http.Client {
@@ -27,6 +27,10 @@ func Client(url, districtId, date, stateId string) (map[string]interface{}, erro
 	req.Header.Add("User-Agent", id.String())
 
 	q := req.URL.Query()
+
+	if pin != "" {
+		q.Add("pincode", pin)
+	}
 	if districtId != "" {
 		q.Add("district_id", districtId)
 	}
