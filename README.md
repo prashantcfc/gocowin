@@ -2,7 +2,7 @@
 Golang based API bindings for CoWIN project. 
 
 This project also includes a compiled binary that can be used on Windows,
-for checking slot availability of COVID vaccines in India. 
+for checking slot availability of COVID-19 vaccines in India. 
 
 In addition, you can clone the source code & build your own binary on Windows or Linux platform using:
 
