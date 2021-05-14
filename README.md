@@ -1,6 +1,8 @@
 # gocowin
 Golang based API bindings for CoWIN project. 
 
+Automatically find COVID-19 vaccine slots in India!!
+
 This project also includes a compiled binary that can be used on Windows,
 for checking slot availability of COVID-19 vaccines in India. 
 
