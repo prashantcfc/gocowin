@@ -40,7 +40,7 @@ func main() {
 		return
 	}
 
-	if *stateId != ""  {
+	if *stateId != "" {
 		res, err := api.GetDistrictCodesInState(*stateId)
 		if err != nil {
 			log.Error(err, "Error while getting district code list by state")
